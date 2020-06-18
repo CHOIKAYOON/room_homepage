@@ -35,14 +35,13 @@ class Nav extends Component  {
               </a>
               </div>
           </div>
-          <div className="Nav_top_btn">
-                       
-                <a  href="">로그인 및 회원가입</a>
+          <div className="Nav_top_btn">                       
+              <a  href="">로그인 및 회원가입</a>
           </div>
-            <div className="Nav_top_item">     
-              <img src="//s.zigbang.com/v1/web/main/btn_agent_register_new.png" alt="중개사무소 가입 및 광고문의" />
-            </div>
-          </div>
+        <div className="Nav_top_item">     
+          <img src="//s.zigbang.com/v1/web/main/btn_agent_register_new.png" alt="중개사무소 가입 및 광고문의" />
+        </div>
+      </div>
     )
   }
 }
