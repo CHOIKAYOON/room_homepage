@@ -34,7 +34,7 @@ class Search extends Component  {
                </div>
                <div className="Search_Box">
                <img alt="" draggable="false" src="//s.zigbang.com/v2/web/search/ic-search2x.png" class="rn-1p0dtai rn-1pi2tsx rn-1d2f490 rn-1272l3b rn-u8s1d rn-zchlnj rn-ipm5af rn-13qz1uu rn-1wyyakw" />                 
-                   <input type="text" ></input>
+                   <input type="text" placeholder="원하시는 지역명, 지하철역, 단지명(아파트명)을 입력해주세요"  ></input>
                    <button type="sudmit">찾아보기</button>
                </div>
             </div>
