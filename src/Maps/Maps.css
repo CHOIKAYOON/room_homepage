@@ -1,0 +1,33 @@
+.Maps_Column{
+    background-color: rgba(246,246,246,1.00);
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Maps_Colunm_img{
+    float: left;
+}
+
+.Maps_Colunm_img img{
+    margin: 10px;
+    width: 290px;
+    height: 200px;
+}
+
+.Maps_title img{
+    margin: 10px 0px;
+    width: 160px;
+    height: 44px;
+}
+
+.Maps_title p{
+    margin-bottom: 4px;
+    margin-top: 4px;
+    font-weight: 700;
+}
+
+.Maps_title{
+    margin: 17px 10px 10px 80px;
+}

@@ -3,6 +3,7 @@ import Main from '../src/Main/Main';
 import Nav from '../src/Nav/Nav';
 import Footer from '../src/Footer/Footer';
 import Position from '../src/Position/Position';
+import Maps from '../src/Maps/Maps'
 
 class App extends Component  {
   render(){
@@ -11,6 +12,7 @@ class App extends Component  {
         <Nav/>
         <Main />
         <Position />
+        <Maps />
         <Footer />
       </div>
     )

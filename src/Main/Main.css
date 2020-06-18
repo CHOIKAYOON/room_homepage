@@ -1,4 +1,10 @@
 .Main_Column{
     background-color: green;
     height: 400px;
+    position: relative;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: initial;
+    margin: 0px auto;
 }
+.Main_Column_img img{height: 400px; width: 100%;}
