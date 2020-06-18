@@ -1,4 +1,5 @@
 import React, { Component }  from 'react';
+import '../Position/Position.css'
 
 class Position extends Component {
     render(){
