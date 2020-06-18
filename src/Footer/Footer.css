@@ -1,4 +1,54 @@
 .Footer_Column{
-    background-color: brown;
     height: 40px;
+}
+
+.Footer_Column_title{
+    color: orange;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 12px;
+}
+
+.Footer_Column_title button{
+    margin-left: 10px;
+    width: 150px;
+    color: rgb(255, 90, 0);
+    border-width: 1px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-size: 11px;
+    background-color: white;
+    border: 1px solid;
+}
+
+.Footer_Menu_title a{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 4px;
+}
+
+.Footer_Coumn_Menu{
+    flex-shrink: 1;
+    min-height: 228px;
+    width: 100%;
+    color: rgb(153, 153, 153);
+    position: relative;
+    text-align: center;
+    margin: 0px auto;
+    overflow: hidden;
+    background: rgb(246, 246, 246);
+    padding: 14px 0px 0px;
+}
+
+.Footer_content p{
+    font-size: 9px;
+    color: black;
+}
+
+.Footer_content img{
+    width: 25px;
+    height: 25px;
+    margin: 6px;
 }
