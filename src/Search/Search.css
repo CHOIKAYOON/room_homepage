@@ -1,3 +1,43 @@
-.Search_Column{
-    background-color: yellow;
+.Search_Column
+{background-color: yellow; position: absolute; bottom: 0px;left: 0px;right: 0px;
+background-color: rgba(0, 0, 0, 0.5); padding-bottom: 24px; flex-direction: row; -webkit-box-pack: center;
+justify-content: center; text-align: center;}
+
+
+.Search_item p{
+    margin: 10px;
+    font-size: 8px;
+    color: white;
+}
+
+.Search_item{
+    display: inline-flex;
+}
+
+.Search_item a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.Search_Box input{
+    width: 540px;
+    height: 32px;
+    margin: 10px 0;
+}
+
+.Search_Box img{
+    height: 35px;
+}
+
+.Search_Box button {
+    height: 38px;
+    background-color: rgb(255, 164, 9);
+}
+
+.Search_Box{
+    width: 700px;
+    margin: 0 auto;
+    height: 40px;
 }
