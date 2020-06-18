@@ -9,3 +9,14 @@
 .Nav_top_btn a{text-decoration: none; color: black; font-size: 12px;} 
 .Nav_item a{text-decoration: none; color: black;}
 .Nav_item span{font-size: 1px; color: gray;}
+.depth2_bx{
+    width: 179px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 101;
+    position: absolute;
+    min-width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 4px 0px;
+    box-sizing: border-box;
+    padding: 8px 0px;}

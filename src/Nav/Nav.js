@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../Nav/Nav.css';
 
-class Nav extends Component  {
+class Nav extends Component  {  
   render(){
     return(
       <div className ="Nav_Column">
@@ -10,30 +10,64 @@ class Nav extends Component  {
           </div>
           <div className="Nav_Column_Item">
               <div className="Nav_item">
-              <a  href="">아파트<br></br>
-                <span>(매매/전월세/신축분양)</span>
-              </a>
+                <a  href="">아파트<br></br>
+                  <span>(매매/전월세/신축분양)</span>
+                </a>
+                <div class="depth2_bx">
+                  <a class=" ">매매/전월세</a><br></br>
+                  <a class=" ">신축분양</a><br></br>
+                  <a class=" ">인구흐름</a><br></br>
+                  <a class=" ">우리집 내놓기</a><br></br>
+                </div>
               </div>
+
               <div className="Nav_item">
-              <a  href="">빌라, 투룸<br></br>
-                <span>(매매/전월세)</span>
-              </a>
+                <a  href="">빌라, 투룸<br></br>
+                  <span>(매매/전월세)</span>
+                </a>
+                  <div class="depth2_bx">
+                    <a class=" ">매매/전·월세</a><br></br>
+                    <a class=" ">신축분양</a><br></br>
+                    <a class=" ">인구흐름</a><br></br>
+                    <a class=" ">우리집 내놓기</a><br></br>
+                </div>
               </div>
+
               <div className="Nav_item">
-              <a  href="">원룸<br></br>
-                <span>(전/월세)</span>
-              </a>
+                <a  href="">원룸<br></br>
+                  <span>(전/월세)</span>
+                </a>
+                <div class="depth2_bx">
+                    <a class=" ">매매/전·월세</a><br></br>
+                    <a class=" ">신축분양</a><br></br>
+                    <a class=" ">인구흐름</a><br></br>
+                    <a class=" ">우리집 내놓기</a><br></br>
+                </div>
               </div>
+
               <div className="Nav_item">
-              <a  href="">오피스텔/도시형생활주택<br></br>
-                <span>(전/월세)</span>
-              </a>
+                <a href="">오피스텔/도시형생활주택<br></br>
+                  <span>(전/월세)</span>
+                </a>
+                <div class="depth2_bx">
+                    <a class=" ">매매/전·월세</a><br></br>
+                    <a class=" ">신축분양</a><br></br>
+                    <a class=" ">인구흐름</a><br></br>
+                    <a class=" ">우리집 내놓기</a><br></br>
+                </div>
               </div>
+
               <div className="Nav_item">
-              <a  href="">창업사무실<br></br>
-                <span>(임대/매매)</span>
-              </a>
-              </div>
+                <a href="">창업사무실<br></br>
+                  <span>(임대/매매)</span>
+                </a>
+              <div class="depth2_bx">
+                  <a class=" ">매매/전·월세</a><br></br>
+                  <a class=" ">신축분양</a><br></br>
+                  <a class=" ">인구흐름</a><br></br>
+                  <a class=" ">우리집 내놓기</a><br></br>
+                </div>
+             </div>
           </div>
           <div className="Nav_top_btn">                       
               <a  href="">로그인 및 회원가입</a>
