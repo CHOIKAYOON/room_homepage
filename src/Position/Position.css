@@ -1,4 +1,36 @@
-.Position_Column{
-    background-color: blue;
-    height: 200px;
+.Position_Column{ width: 100%;
+    padding: 27px 0px;
+    background: white;
+    overflow: hidden;
+    margin: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    }
+.Position_Column_title{
+    width: 200px;
+    height: 160px; 
+    float: left;
+    margin: 0 14px 0;
+}
+
+.Position_Column_title img{
+    width: 200px;
+    height: 120px;
+}
+
+.Position_Column_title p{
+    font-size: 12px;
+    font-weight: 700;
+    border-bottom: 1px solid gray;
+}
+
+.Position_Column_title pre{
+    font-size: 8px;
+}
+
+.Position_Column_title a{
+    text-decoration: none;
+    color: black;
 }
