@@ -58,7 +58,7 @@
 }
 
 .depth2_bx{
-    width: 90px;
+    width: 100px;
     z-index: 101;
     position: absolute;
     background-color: rgb(255, 255, 255);
@@ -70,5 +70,6 @@
 
 .depth2_bx a {
     display: inline-block;
-    margin: 4px;
+    margin: 7px;
+    font-size: 8px;
 }
