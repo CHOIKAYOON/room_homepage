@@ -29,6 +29,11 @@
     margin: 4px;
 }
 
+.Footer_Menu_title{
+    display: inline;
+}
+
+
 .Footer_Coumn_Menu{
     flex-shrink: 1;
     min-height: 228px;

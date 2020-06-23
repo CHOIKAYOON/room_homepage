@@ -4,10 +4,11 @@ background-color: rgba(0, 0, 0, 0.5); padding-bottom: 24px; flex-direction: row;
 justify-content: center; text-align: center;}
 
 
-.Search_item p{
-    margin: 10px;
+.Search_item span{
+    margin: 7px 7px 0;
     font-size: 8px;
     color: white;
+    display: inline-flex;
 }
 
 .Search_item{
@@ -19,6 +20,7 @@ justify-content: center; text-align: center;}
     color: white;
     font-size: 15px;
     font-weight: 700;
+    margin: 0 8px;
 }
 
 .Search_Box input{
@@ -40,4 +42,9 @@ justify-content: center; text-align: center;}
     width: 700px;
     margin: 0 auto;
     height: 40px;
+}
+
+.Search_item p {
+    display: inline-flex;
+    font-size: 9px;
 }
