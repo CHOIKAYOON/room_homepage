@@ -4,6 +4,12 @@
 
 홈페이지 구분을 위해 컴포넌트 구조를 전체적으로 나눠, 개발을 진행했습니다. 외부API를 사용하지 않고 Data를 직접 객체에 담아 설계해서 코드가 간단하면서 쉽게 볼 수 있게 정리했습니다. 
 
+
+![직방](https://user-images.githubusercontent.com/31337244/85659470-8ac7a480-b6ef-11ea-824e-8816df3e3f52.JPG)
+![직방2](https://user-images.githubusercontent.com/31337244/85659477-8d29fe80-b6ef-11ea-9aa4-49c28ca4cc81.JPG)
+
+
+
 ### `Components 구조`
 * Footer.js 
 * Main.js
