@@ -4,28 +4,22 @@ React로 구현했으며, css를 제대로 사용하고 이해하기 위해 만�
 
 -----
 ### Components 구조
-* Footer.js 
-* Main.js
-* Maps.js
-* Nav.js
-* Position.js
-* Search.js
-* App.js
+* Footer.js - 하단 Components
+* Main.js - Main img Components
+* Maps.js - 구글스토어 및 맵 스토어 
+* Nav.js - 메뉴 및 상단 Components
+* Position.js - 기사 및 공지사항 Components
+* Search.js - 메인 화면 안의 검색 Components
+* App.js 
 * css파일 
 
-### Components 폴더의 컴포넌트들 설명 
-* Footer.js : 홈페이지 하단 Components
-* Main.js : 홈페이지 Main img Components
-* Maps.js :  홈페이지 구글스토어 및 맵 스토어 
-* Nav.js :  홈페이지 메뉴 및 상단 Components
-* Position.js : 홈페이지 기사 및 공지사항 Components
-* Search.js :  메인 화면 안의 검색 Components
     
-### Components에 값
-직방에 대한 API를 호출 말고 객체에 값을 일일히 담아 개발을 진행.
-(모든 컴포넌트들도 똑같이 개발 진행했으므로 몇개의 파일만 소개할것이다.)
+### Components Data 관리 - 객체 선언.
+직방에 대한 data는 외부 API를 호출이 아니라 객체에 값을 일일히 담아 개발을 진행했습니다. 
+(모든 컴포넌트들도 똑같이 개발 진행했으므로 몇개의 파일만 설명 진행하겠습니다.)
 ex) Nav.js / Position.js
 ex) Nav.css / Position.css
+
 
 #### Nav.js
 ```
