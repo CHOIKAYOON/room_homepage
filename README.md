@@ -24,6 +24,7 @@ React로 구현했으며, css를 제대로 사용하고 이해하기 위해 만�
 (모든 컴포넌트들도 똑같이 개발 진행했으므로 몇개의 파일만 설명 진행하겠습니다.)
 
 ex) Nav.js / Position.js
+
 ex) Nav.css / Position.css
 
 
