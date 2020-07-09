@@ -1,4 +1,5 @@
 React로 구현했으며, css를 제대로 사용하고 이해하기 위해 만든 직방 웹 어플리케이션입니다. 
+-----
 ![직방](https://user-images.githubusercontent.com/31337244/85659470-8ac7a480-b6ef-11ea-824e-8816df3e3f52.JPG)
 ![직방2](https://user-images.githubusercontent.com/31337244/85659477-8d29fe80-b6ef-11ea-9aa4-49c28ca4cc81.JPG)
 
